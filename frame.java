@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class frame extends JFrame {
     frame() {
-        this.setIconImage(new ImageIcon("snaekgaem/doc/download.jpg").getImage());
+        this.setIconImage(new ImageIcon("doc/download.jpg").getImage());
         this.add(new panel());
         this.setVisible(true);
         //this.setLayout(null);
